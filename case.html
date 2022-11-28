@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <style>
-        canvas {
-            border:1px solid #d3d3d3;
-        } </style>
+    <style>canvas {border:1px solid #d3d3d3;} </style>
 </head>
-<!--<body onload="draw()">-->
 <body>
-<canvas id="gamezone" width="900" height="600" style="background-image:url(anh/nenchinh.png)"></canvas>
-<img id="anh" width="80" height="80" src="anh/2.png" style="display: none">
+<canvas id="gamezone" width="400" height="600" style="background-image:url(anh/dianguc.jpg)"></canvas>
+
+<img id="ma" width="80" height="80" src="anh/ghost.png" hidden>
+<img id="qt" width="100" height="100" src="anh/quantai.png" hidden>
 <p id="d">score: 0</p>
+
+
 <script src="ghost.js"></script>
+<script src="quantai.js"></script>
+
+<script src="main.js"></script>
 </body>
 </html>

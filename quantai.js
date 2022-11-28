@@ -1,4 +1,4 @@
-class Ghost {
+class Coffin {
     constructor(x, y, a, b) {
         this.x = x;
         this.y = y;
@@ -7,18 +7,11 @@ class Ghost {
         this.canvas = document.getElementById('gamezone');
         this.ctx = this.canvas.getContext("2d");
 
-
-    }
-    run(){
-        this.ctx.clearRect(this.x,this.y,this.canvas.width,this.canvas.high);
-        y+=50;
     }
 
     draw() {
-        let img = document.getElementById("ma");
+        let img = document.getElementById("qt");
         this.ctx.drawImage(img, this.x, this.y, this.a, this.b);
     }
 }
-
-
 
